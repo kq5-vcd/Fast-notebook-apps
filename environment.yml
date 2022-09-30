@@ -1,9 +1,15 @@
+name: duy
+channels:
+  - conda-forge
 dependencies:
-  - python==3.9.13 
-  - pip==22.1.2 
+  - python
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
   - pip: 
     - voila
-    - fastai==2.7.9
-    - ipywidgets==7.6.5
-    - scikit-image==0.16.2
-    - pillow==9.2.0
+    - fastai
+    - ipywidgets
+    - scikit-image
+    - pillow
